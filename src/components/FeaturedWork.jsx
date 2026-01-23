@@ -108,7 +108,7 @@ const FeaturedWork = () => {
                             </div>
                             <div className="work-image-wrapper">
                                 <img
-                                    src="https://img.sanishtech.com/u/225fa2946d87790b5b216216058b26ad.png"
+                                    src="/public/assets/bit1.jpg"
                                     alt="BiteBloom"
                                     className="work-image"
                                     loading="lazy"
