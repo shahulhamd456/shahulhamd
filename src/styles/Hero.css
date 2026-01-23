@@ -1,0 +1,188 @@
+/* Hero Section Styles */
+.hero-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-container {
+    width: 100%;
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 3rem;
+    /* Replaces gy-5 */
+}
+
+/* Hero Text Section */
+.hero-text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Interactive Text (Spelling moving separately) */
+.hero-content h1.interactive-text {
+    font-size: 3.5rem;
+    color: #000000 !important;
+    /* Force Black */
+    cursor: default;
+    opacity: 1 !important;
+    /* Override potential GSAP stuck state */
+    position: relative;
+    z-index: 10;
+    max-width: 420px;
+}
+
+.interactive-text span {
+    display: inline-block;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    /* Bouncy spring */
+}
+
+/* Individual Letter Hover */
+.interactive-text span:hover {
+    color: var(--primary-accent);
+    transform: translateY(-10px) scale(1.2) rotate(5deg);
+    text-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
+}
+
+.hero-text-section h2 {
+    font-size: 1.25rem;
+    color: var(--primary-accent);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hero-text-section .role {
+    font-size: 1.5rem;
+    color: var(--text-muted);
+}
+
+.hero-text-section .bio {
+    font-size: 1.1rem;
+    max-width: 500px;
+    margin-bottom: 2rem;
+}
+
+/* Hero Visual Section */
+.hero-visual-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Profile & Floating Cards */
+.profile-container {
+    width: 350px;
+    height: 450px;
+    border-radius: 120px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    border: 4px solid rgba(255, 255, 255, 0.5);
+    /* Thinner, clearer border */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+.profile-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.float-card {
+    position: absolute;
+    /* Keep as absolute */
+    z-index: 3;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 200px;
+}
+
+.card-1 {
+    top: 50px;
+    right: 0px;
+}
+
+.card-2 {
+    bottom: 80px;
+    left: -20px;
+}
+
+.icon-box {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.9);
+    /* More opaque */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-accent);
+    font-size: 1.2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+
+/* Media Queries */
+@media (max-width: 991px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 3rem;
+    }
+
+    /* Reorder: Visual first on Mobile */
+    .hero-visual-section {
+        order: -1;
+    }
+
+    .hero-text-section {
+        align-items: center;
+    }
+
+    .profile-container {
+        width: 300px;
+        height: 400px;
+        margin-bottom: 30px;
+    }
+
+    .card-1 {
+        top: 20px;
+        right: -10px;
+    }
+
+    .card-2 {
+        bottom: 100px;
+        left: -10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content h1.interactive-text {
+        font-size: 2.5rem;
+        /* Smaller font on mobile */
+    }
+
+    .float-card {
+        display: none;
+        /* Hide floating cards on mobile to prevent overflow */
+    }
+
+    .profile-container {
+        width: 200px;
+        /* Smaller on mobile */
+        height: 280px;
+    }
+}
