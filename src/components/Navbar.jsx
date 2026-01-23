@@ -45,27 +45,27 @@ const Navbar = () => {
         {/* State Class: .mobile-active */}
         <ul className={`nav-menu ${isMobileMenuOpen ? 'mobile-active' : ''}`}>
           <li>
-            <Link to="/" className={`nav-link ${isActive('/')}`} style={isActive('/') ? { color: 'var(--primary-accent)' } : {}}>
+            <Link to="/" className={`nav-link ${isActive('/')}`} style={isActive('/') ? { color: 'var(--primary-accent)' } : {}} onClick={() => setIsMobileMenuOpen(false)}>
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about" className={`nav-link ${isActive('/about')}`}>
+            <Link to="/about" className={`nav-link ${isActive('/about')}`} onClick={() => setIsMobileMenuOpen(false)}>
               About
             </Link>
           </li>
           <li>
-            <Link to="/skills" className={`nav-link ${isActive('/skills')}`}>
+            <Link to="/skills" className={`nav-link ${isActive('/skills')}`} onClick={() => setIsMobileMenuOpen(false)}>
               Skills
             </Link>
           </li>
           <li>
-            <Link to="/contact" className={`nav-link ${isActive('/contact')}`}>
+            <Link to="/contact" className={`nav-link ${isActive('/contact')}`} onClick={() => setIsMobileMenuOpen(false)}>
               Contact
             </Link>
           </li>
           <li className="mobile-only-btn">
-            <a href="mailto:shahulhamd456@gmail.com" className="btn btn-primary w-100">Let's Talk</a>
+            <a href="mailto:shahulhamd456@gmail.com" className="btn btn-primary w-100" onClick={() => setIsMobileMenuOpen(false)}>Let's Talk</a>
           </li>
         </ul>
 
