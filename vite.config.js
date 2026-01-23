@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/shahulhamd/',
+  base: '/',
   build: {
     outDir: 'dist',
     content: ['index.html', 'src/**/*.{js,ts,jsx,tsx}']

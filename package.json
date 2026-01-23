@@ -2,6 +2,7 @@
   "name": "shahul-portfolio-react",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://shahulhamd456.github.io/shahulhamd",
   "scripts": {
     "dev": "vite --host",
     "predeploy": "npm run build",
