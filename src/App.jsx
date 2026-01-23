@@ -14,7 +14,7 @@ function App() {
   useSmoothScroll();
 
   return (
-    <Router basename="/shahulhamd" future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+    <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <Layout>
         <Suspense fallback={<div style={{ height: '100vh' }}></div>}>
           <Routes>
