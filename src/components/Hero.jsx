@@ -127,7 +127,7 @@ const Hero = () => {
                         </p>
 
                         <div className="cta-group">
-                            <a href="/assets/SHAHUL-HAMEED-CV.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-primary magnetic-btn" style={{ marginRight: '10px' }}>
+                            <a href={`${import.meta.env.BASE_URL}assets/SHAHUL-HAMEED-CV.pdf`} target="_blank" rel="noopener noreferrer" className="btn btn-primary magnetic-btn" style={{ marginRight: '10px' }}>
                                 Download CV
                             </a>
                             <Link to="/contact" className="btn btn-primary1 magnetic-btn">
