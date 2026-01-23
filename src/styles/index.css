@@ -174,7 +174,8 @@ body {
   position: relative;
   overflow: hidden;
   transform-origin: top center;
-  will-change: transform, opacity, box-shadow;
+  will-change: transform;
+  /* Optimized for GPU */
 }
 
 /* Shimmer Animation */

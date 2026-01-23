@@ -60,7 +60,7 @@ const Hero = () => {
                 });
             });
 
-            // Mouse Parallax
+            // Mouse Parallax - Optimized with quickSetter
             let windowWidth = window.innerWidth;
             let windowHeight = window.innerHeight;
 
@@ -71,26 +71,19 @@ const Hero = () => {
 
             window.addEventListener('resize', updateWindowDimensions);
 
+            const xSetCard = gsap.quickSetter(".float-card", "x", "px");
+            const ySetCard = gsap.quickSetter(".float-card", "y", "px");
+            const xSetProfile = gsap.quickSetter(".profile-container", "x", "px");
+            const ySetProfile = gsap.quickSetter(".profile-container", "y", "px");
+
             const handleMouseMove = (e) => {
                 const x = (e.clientX / windowWidth - 0.5) * 30;
                 const y = (e.clientY / windowHeight - 0.5) * 30;
 
-                gsap.to(".float-card", {
-                    x: x,
-                    y: y,
-                    duration: 1,
-                    stagger: 0.05,
-                    ease: "power2.out",
-                    overwrite: "auto"
-                });
-
-                gsap.to(".profile-container", {
-                    x: -x * 0.5,
-                    y: -y * 0.5,
-                    duration: 1,
-                    ease: "power2.out",
-                    overwrite: "auto"
-                });
+                xSetCard(x);
+                ySetCard(y);
+                xSetProfile(-x * 0.5);
+                ySetProfile(-y * 0.5);
             };
 
             const heroSection = heroRef.current;
