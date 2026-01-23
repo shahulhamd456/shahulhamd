@@ -8,11 +8,7 @@ const About = lazy(() => import('./pages/About'));
 const Skills = lazy(() => import('./pages/Skills'));
 const Contact = lazy(() => import('./pages/Contact'));
 
-import useSmoothScroll from './hooks/useSmoothScroll';
-
 function App() {
-  useSmoothScroll();
-
   return (
     <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <Layout>
