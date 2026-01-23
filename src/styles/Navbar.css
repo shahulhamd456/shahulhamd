@@ -143,6 +143,10 @@
         align-items: center;
         gap: 24px;
 
+
+
+
+
         /* Glassmorphism */
         background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.6));
         backdrop-filter: blur(20px);
@@ -152,6 +156,12 @@
         border-radius: 20px;
         z-index: 999;
         animation: slideInDown 0.3s ease-out forwards;
+    }
+
+
+
+    .nav-cta-btn {
+        display: none !important;
     }
 
     .nav-menu.mobile-active li {
@@ -172,9 +182,7 @@
     }
 
     /* Hide Desktop CTA */
-    .nav-cta-btn {
-        display: none;
-    }
+
 
     /* Show Toggle */
     .menu-toggle {
