@@ -134,7 +134,7 @@ const FeaturedWork = () => {
                             </div>
                             <div className="work-image-wrapper">
                                 <img
-                                    src="https://img.sanishtech.com/u/4606b1ccc8a849d45b9a0d04631d5499.png"
+                                    src="/public/assets/logipre.jpg"
                                     alt="Logistics Pro"
                                     className="work-image"
                                     loading="lazy"
