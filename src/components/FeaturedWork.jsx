@@ -160,7 +160,7 @@ const FeaturedWork = () => {
                             </div>
                             <div className="work-image-wrapper">
                                 <img
-                                    src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=800&auto=format&fit=crop"
+                                    src="/assets/freshsss.webp"
                                     alt="Fresh Bite"
                                     className="work-image"
                                     loading="lazy"
@@ -186,7 +186,7 @@ const FeaturedWork = () => {
                             </div>
                             <div className="work-image-wrapper">
                                 <img
-                                    src="https://images.unsplash.com/photo-1561484930-998b6a7b22e8?q=80&w=800&auto=format&fit=crop"
+                                    src="/assets/dailyyy.png"
                                     alt="SkyCast"
                                     className="work-image"
                                     loading="lazy"
