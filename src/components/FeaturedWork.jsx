@@ -96,7 +96,7 @@ const FeaturedWork = () => {
                 <div className="projects-grid">
                     {/* Project 1: BiteBloom */}
                     <div className="project-column">
-                        <a href="#" className="work-card">
+                        <a href="https://bitebloome.vercel.app/" className="work-card">
                             <div className="work-card-header">
                                 <div>
                                     <h3>BiteBloom</h3>
@@ -122,7 +122,7 @@ const FeaturedWork = () => {
 
                     {/* Project 2: Logistics Pro */}
                     <div className="project-column">
-                        <a href="#" className="work-card">
+                        <a href="https://logistics-sable.vercel.app/" className="work-card">
                             <div className="work-card-header">
                                 <div>
                                     <h3>Logistics Pro</h3>
