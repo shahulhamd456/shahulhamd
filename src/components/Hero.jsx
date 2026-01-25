@@ -133,7 +133,7 @@ const Hero = () => {
                     <div className="hero-visual-section">
                         <div className="profile-container">
                             <img
-                                src="/public/assets/WhatsApp Image 2026-01-25 at 6.16.22 PM.jpeg"
+                                src="/assets/WhatsApp Image 2026-01-25 at 6.16.22 PM.jpeg"
                                 alt="Shahul Hameed"
                                 loading="eager"
                                 width="350"

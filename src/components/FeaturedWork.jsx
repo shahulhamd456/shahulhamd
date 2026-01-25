@@ -108,7 +108,7 @@ const FeaturedWork = () => {
                             </div>
                             <div className="work-image-wrapper">
                                 <img
-                                    src="/public/assets/bit1.jpg"
+                                    src="/assets/bit1.jpg"
                                     alt="BiteBloom"
                                     className="work-image"
                                     loading="lazy"
@@ -134,7 +134,7 @@ const FeaturedWork = () => {
                             </div>
                             <div className="work-image-wrapper">
                                 <img
-                                    src="/public/assets/logipre.jpg"
+                                    src="/assets/logipre.jpg"
                                     alt="Logistics Pro"
                                     className="work-image"
                                     loading="lazy"
