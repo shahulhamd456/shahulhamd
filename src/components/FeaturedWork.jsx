@@ -152,7 +152,7 @@ const FeaturedWork = () => {
                             <div className="work-card-header">
                                 <div>
                                     <h3>Fresh Bite</h3>
-                                    <p>Food Delivery App</p>
+                                    <p>Food Delivery website</p>
                                 </div>
                                 <div className="work-icon">
                                     <i className="ri-arrow-right-up-line"></i>
@@ -177,8 +177,8 @@ const FeaturedWork = () => {
                         <a href="#" className="work-card">
                             <div className="work-card-header">
                                 <div>
-                                    <h3>SkyCast</h3>
-                                    <p>Global Weather Updates</p>
+                                    <h3>Daily Do</h3>
+                                    <p>Daily task app</p>
                                 </div>
                                 <div className="work-icon">
                                     <i className="ri-arrow-right-up-line"></i>
