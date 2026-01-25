@@ -135,6 +135,13 @@
 }
 
 
+
+@media (max-width: 1024px) {
+    .float-card{
+        display: none !important;
+    }
+}
+
 /* Media Queries */
 @media (max-width: 991px) {
     .hero-grid {
@@ -158,14 +165,8 @@
         margin-bottom: 30px;
     }
 
-    .card-1 {
-        top: 20px;
-        right: -10px;
-    }
-
-    .card-2 {
-        bottom: 100px;
-        left: -10px;
+   .float-card{
+        display: none !important;
     }
 }
 

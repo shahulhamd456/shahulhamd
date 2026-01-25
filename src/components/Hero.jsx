@@ -133,7 +133,7 @@ const Hero = () => {
                     <div className="hero-visual-section">
                         <div className="profile-container">
                             <img
-                                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop"
+                                src="/public/assets/WhatsApp Image 2026-01-25 at 6.16.22 PM.jpeg"
                                 alt="Shahul Hameed"
                                 loading="eager"
                                 width="350"
