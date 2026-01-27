@@ -186,8 +186,8 @@ const FeaturedWork = () => {
                             </div>
                             <div className="work-image-wrapper">
                                 <img
-                                    src="/assets/dailyyy.png"
-                                    alt="SkyCast"
+                                    src="/assets/android_task_app.jpg"
+                                    alt="Daily Do App"
                                     className="work-image"
                                     loading="lazy"
                                     decoding="async"
