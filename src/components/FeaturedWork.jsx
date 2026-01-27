@@ -186,7 +186,7 @@ const FeaturedWork = () => {
                             </div>
                             <div className="work-image-wrapper">
                                 <img
-                                    src="/assets/android_task_app.jpg"
+                                    src="/assets/dailyyy.png"
                                     alt="Daily Do App"
                                     className="work-image"
                                     loading="lazy"
