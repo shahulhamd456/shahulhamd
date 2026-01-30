@@ -17,14 +17,12 @@ const About = () => {
             <h3>Who I Am</h3>
           </div>
           <p className="bio-intro">
-            I work with Figma, design systems, and modern UI trends to create smooth and meaningful user
-            journeys. I’m constantly learning and refining my design skills to build products that feel simple,
-            modern, and easy to use.
+            I am a <strong>Frontend Developer</strong> and <strong>UI/UX Designer</strong> passionate about building scalable, component-based web applications.
+            I specialize in the <strong>React ecosystem</strong>, crafting clean, responsive, and high-performance interfaces that bridge the gap between design and technology.
           </p>
           <p className="bio-details">
-            My background in computer applications (BCA) gives me a unique advantage: I understand not just how
-            a product should look, but how it works under the hood. This bridge between design and development
-            is where I thrive.
+            My background in Computer Applications (BCA) provides a strong technical foundation, allowing me to understand not just the visuals, but the <strong>scalable architecture</strong> under the hood.
+            From <strong>Figma prototypes</strong> to production-ready <strong>React code</strong>, I handle the full lifecycle of frontend development.
           </p>
           <div className="contact-meta">
             <div className="meta-item">

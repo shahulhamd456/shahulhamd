@@ -107,16 +107,16 @@ const Hero = () => {
                 <div className="hero-grid">
                     {/* Left Content */}
                     <div className="hero-text-section">
-                        <h2>I'm</h2>
+                        <span className="greeting">I'm</span>
                         <h1 className="interactive-text">
                             <span>S</span><span>h</span><span>a</span><span>h</span><span>u</span><span>l</span>
                             &nbsp;
                             <span>H</span><span>a</span><span>m</span><span>e</span><span>e</span><span>d</span>
                         </h1>
-                        <p className="role">UI/UX Designer | Frontend Developer</p>
+                        <h2 className="role">React Frontend Developer & UI/UX Designer</h2>
                         <p className="bio">
-                            I’m an entry-level UI/UX Designer skilled in creating clean, user-friendly interfaces and
-                            improving digital experiences through thoughtful design.
+                            I build performant, scalable web applications and intuitive user interfaces.
+                            Specializing in <strong>React, JavaScript, and Modern Design Systems</strong> to create digital experiences that stand out.
                         </p>
 
                         <div className="cta-group">
@@ -134,7 +134,7 @@ const Hero = () => {
                         <div className="profile-container">
                             <img
                                 src="/assets/WhatsApp Image 2026-01-25 at 6.16.22 PM.jpeg"
-                                alt="Shahul Hameed"
+                                alt="Shahul Hameed - React Frontend Developer & UI Designer"
                                 loading="eager"
                                 width="350"
                                 height="450"

@@ -100,7 +100,7 @@ const FeaturedWork = () => {
                             <div className="work-card-header">
                                 <div>
                                     <h3>BiteBloom</h3>
-                                    <p>Artisanal Bakery & Cafe</p>
+                                    <p>Artisanal Bakery & Cafe Website in React</p>
                                 </div>
                                 <div className="work-icon">
                                     <i className="ri-arrow-right-up-line"></i>
@@ -109,7 +109,7 @@ const FeaturedWork = () => {
                             <div className="work-image-wrapper">
                                 <img
                                     src="/assets/bit1.jpg"
-                                    alt="BiteBloom"
+                                    alt="BiteBloom - Artisanal Bakery Website built with React"
                                     className="work-image"
                                     loading="lazy"
                                     decoding="async"
@@ -126,7 +126,7 @@ const FeaturedWork = () => {
                             <div className="work-card-header">
                                 <div>
                                     <h3>Logistics Pro</h3>
-                                    <p>UX/UI Dashboard</p>
+                                    <p>UX/UI Dashboard Design</p>
                                 </div>
                                 <div className="work-icon">
                                     <i className="ri-arrow-right-up-line"></i>
@@ -135,7 +135,7 @@ const FeaturedWork = () => {
                             <div className="work-image-wrapper">
                                 <img
                                     src="/assets/logipre.jpg"
-                                    alt="Logistics Pro"
+                                    alt="Logistics Pro - Supply Chain Dashboard UX UI Design"
                                     className="work-image"
                                     loading="lazy"
                                     decoding="async"
@@ -152,7 +152,7 @@ const FeaturedWork = () => {
                             <div className="work-card-header">
                                 <div>
                                     <h3>Fresh Bite</h3>
-                                    <p>Food Delivery website</p>
+                                    <p>Food Delivery App Interface</p>
                                 </div>
                                 <div className="work-icon">
                                     <i className="ri-arrow-right-up-line"></i>
@@ -161,7 +161,7 @@ const FeaturedWork = () => {
                             <div className="work-image-wrapper">
                                 <img
                                     src="/assets/freshsss.webp"
-                                    alt="Fresh Bite"
+                                    alt="Fresh Bite - Food Delivery Web App Concept"
                                     className="work-image"
                                     loading="lazy"
                                     decoding="async"
@@ -178,7 +178,7 @@ const FeaturedWork = () => {
                             <div className="work-card-header">
                                 <div>
                                     <h3>Daily Do</h3>
-                                    <p>Daily task app</p>
+                                    <p>React Native Productivity App</p>
                                 </div>
                                 <div className="work-icon">
                                     <i className="ri-arrow-right-up-line"></i>
@@ -187,7 +187,7 @@ const FeaturedWork = () => {
                             <div className="work-image-wrapper">
                                 <img
                                     src="/assets/dailyyy.png"
-                                    alt="Daily Do App"
+                                    alt="Daily Do - Task Management App Application"
                                     className="work-image"
                                     loading="lazy"
                                     decoding="async"
