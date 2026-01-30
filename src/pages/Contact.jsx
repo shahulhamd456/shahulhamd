@@ -66,25 +66,25 @@ const Contact = () => {
         <div className="glass-card info-card">
           <div className="info-group">
             <h4><i className="ri-mail-send-line"></i> Email Me</h4>
-            <p>shahulhamd456@gmail.com</p>
+            <a href="shahulhamd456@gmail.com"><p>shahulhamd456@gmail.com</p></a>
           </div>
 
           <div className="info-group">
             <h4><i className="ri-phone-line"></i> Call Me</h4>
-            <p>+91 9744566541</p>
+            <a href="+91 9744566541"><p>+91 9744566541</p></a>
           </div>
 
           <div className="info-group">
             <h4><i className="ri-map-pin-2-line"></i> Location</h4>
-            <p>Malappuram, Kerala</p>
+            <a href="https://share.google/WVgDbDrz6HZLC0vOX"><p>Malappuram, Kerala</p></a>
           </div>
 
           <div className="social-links">
-            <a href="#" className="social-btn"><i className="ri-linkedin-fill"></i></a>
-            <a href="#" className="social-btn"><i className="ri-instagram-line"></i></a>
-            <a href="#" className="social-btn"><i className="ri-twitter-x-fill"></i></a>
+            <a href="www.linkedin.com/in/shahul-hameed-therambil" className="social-btn"><i className="ri-linkedin-fill"></i></a>
+            <a href="https://www.instagram.com/shahull__" className="social-btn"><i className="ri-instagram-line"></i></a>
+           
             <a href="#" className="social-btn"><i className="ri-facebook-fill"></i></a>
-            <a href="#" className="social-btn"><i className="ri-whatsapp-line"></i></a>
+            <a href="https://wa.me/919744566541" className="social-btn"><i className="ri-whatsapp-line"></i></a>
           </div>
         </div>
 

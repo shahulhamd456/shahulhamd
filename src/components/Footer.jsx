@@ -65,10 +65,11 @@ const Footer = () => {
         <div className="footer-social-section">
           <h5 className="connect-heading">Connect</h5>
           <div className="footer-socials">
-            <a href="#" className="social-icon-btn"><i className="ri-linkedin-fill"></i></a>
-            <a href="#" className="social-icon-btn"><i className="ri-dribbble-line"></i></a>
+            <a href="www.linkedin.com/in/shahul-hameed-therambil" className="social-icon-btn"><i className="ri-linkedin-fill"></i></a>
+           
+            <a href="https://www.instagram.com/shahull__" className="social-icon-btn"><i className="ri-instagram-line"></i></a>
+             <a href="#" className="social-icon-btn"><i className="ri-dribbble-line"></i></a>
             <a href="#" className="social-icon-btn"><i className="ri-behance-fill"></i></a>
-            <a href="#" className="social-icon-btn"><i className="ri-instagram-line"></i></a>
           </div>
         </div>
       </div>
@@ -76,7 +77,7 @@ const Footer = () => {
       {/* Copyright Line */}
       <div className="footer-bottom">
         <p className="footer-copyright">&copy; 2025 Shahul Hameed. All rights reserved.</p>
-        <p className="footer-credit">Designed & Coded with ❤️</p>
+        <p className="footer-credit">Designed & Coded by shahul</p>
       </div>
 
       {/* Background Gradient Blur */}
