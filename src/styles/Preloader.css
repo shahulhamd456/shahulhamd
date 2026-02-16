@@ -108,7 +108,7 @@
     margin: 0;
     display: flex;
     gap: 0;
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; - Removed for standardization */
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }

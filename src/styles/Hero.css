@@ -112,12 +112,12 @@
 
 .card-1 {
     top: 50px;
-    right: 0px;
+    right: -20px;
 }
 
 .card-2 {
     bottom: 80px;
-    left: -20px;
+    left: -40px;
 }
 
 .icon-box {
@@ -137,7 +137,7 @@
 
 
 @media (max-width: 1024px) {
-    .float-card{
+    .float-card {
         display: none !important;
     }
 }
@@ -165,7 +165,7 @@
         margin-bottom: 30px;
     }
 
-   .float-card{
+    .float-card {
         display: none !important;
     }
 }
